@@ -16,5 +16,7 @@ Route::get('/show-all-marks',[StudentController::class,'showAllMarks']);
 
 Route::get('/subject-analysis',[SubjectController::class,'subjectAnalysis']);
 
+Route::get('/chart-data',[SubjectController::class,'chartData']);
+
 
 
